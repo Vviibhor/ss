@@ -1,0 +1,30 @@
+
+<!------ Include the above in your HEAD tag ---------->
+<div>
+    <li><app-navbar></app-navbar></li> 
+</div>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <h2>User Registration</h2>
+        <!-- <img src="/src/assets/user.png" id="icon" alt="User Icon" /> -->
+      </div>
+  
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="login" class="fadeIn second" name="login" placeholder="User Name">
+        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
+        <input type="submit" class="fadeIn fourth" value="Register">
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" routerLink="/login">Already have an account?<br>Login Here!</a>
+      </div>
+  
+    </div>
+  </div>
+  <router-outlet></router-outlet>

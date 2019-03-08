@@ -1,0 +1,13 @@
+
+.form-inline .form-control {
+    width: inherit;
+}
+.col-4 {
+  
+  padding-left: 0px;
+}
+
+.col-8 {
+ 
+  padding-right: 0;
+}
